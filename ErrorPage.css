@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter&family=Nunito:wght@700&display=swap');
+body{
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+.contenu{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
+.contenu img{
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+.contenu h1{
+    text-align: center;
+    margin-right: 20%;
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+
+}
+.contenu button{
+    font-family: Exo;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 37%;
+    padding: 3%;
+    background: #FF6600;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.contenu a{
+    margin-left: 21%;
+   
+    
+}
