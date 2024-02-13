@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Apply</title>
+    <link rel="stylesheet" href="job_apply.css">
+</head>
+<body>
+    <main>
+        <section>
+            <img src="./image/job.png" alt="petite image">
+            <p> <span>Job Apply Now</span></p>
+            <h2>Apply For This Job</h2>
+            <p>Integer iaculis ultrices velit nec tempor. Pellentesque aliquet est massa, sit
+                amet tempor mi auctor nec.
+            </p>
+            <div class="formulaire">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" name="Firstname" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="Last name" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="tel" name="tel" placeholder="Phone number">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="Location" placeholder="Location(City)">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="col">
+                        <input list="options"  type="text" name="Position" placeholder="Position">
+                        <datalist id="options">
+                            <option value="Option 1">
+                            <option value="Option 2">
+                            <option value="Option 3">
+                            <!-- Ajoutez d'autres options au besoin -->
+                        </datalist>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="url" name="url" placeholder="Portfolio / Website link..">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="salary" placeholder="Your expected salary">
+                    </div>
+                </div>
+                <div>
+                    <label for="">Upload CV</label> <br>
+                    <input type="file" id="file" name="file">
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <a href="#"> <button>Submit now</button></a>   
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
