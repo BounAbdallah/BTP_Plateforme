@@ -281,16 +281,137 @@ color: #494949;    margin-top: 20px;
     height: 30px;
 }
 .buildDreamButton{
+    margin-top: 150px;
     align-items: center;
     display: flex;
     flex-direction: row;
-    width: 610px;
-    height: 52px;
+    width: 600px;
+    height: 50px;
     border: 2px solid #d6d6d6;
     border-style: dotted;
-    justify-content: center;
+    margin-left: 32%;
+    border-radius: 0px 20px 20px 0;
+}
+.buildDreamButton .textBtn{
+    width: 400px;
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: Regular;
+    color: #FF6600;
+    
 }
 .btn-call-to-action{
-    height: 100%;
+    width: 200px;
+    height: 40px;
+    border-radius: 0px 20px 20px 0;
+    align-items: center;
+    vertical-align: center;
     background: #FF6600;
+    padding-top: 10px;
+    margin-top: 0px;
+    color: #FFFFFF;
+}
+.spanBtn {
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.sectionEmployers{
+    margin-top: 320px;
+    display: flex;
+    width: 100%;
+    height: 750px;
+    padding-top: 30px;
+    justify-content: center;
+
+    background-image: url('images/Section2.png');
+    background-size:contain; 
+    background-position: center; 
+}
+.cardEmployer{
+    margin-top: 2000px;
+    border-radius : 96px 96px 0 0 ;
+    width: 370px;
+    height: 449px;
+    margin: 50px;
+    background: #FFFFFF;
+}
+
+.cardEmployer img{
+    margin-top: -54px;
+
+    width: 350px;
+    height: 500px;
+}
+.infos{
+    width: 336px;
+    height: 99px;
+    background: #F2F2F2;
+    margin-top: -20px;
+    border-radius :0 0 0  41px  ;
+
+}
+.infos h3,p{
+    margin-top: 20px;
+    margin-left: 45px;
+    gap: 30px;
+}
+.sectionBlog{
+    display: flex;
+    justify-content: center;
+}
+.imgNomAuteur1{
+
+    width: 563px;
+    height: 320px;
+    background: #494949;
+    color: #FFFFFF;
+    margin: 20px;
+    display: flex;
+    align-items: end;
+    border-radius :80px 0px 0  0px  ;
+    border-bottom: 4px solid #FF6600;
+}
+.imgNomAuteur2{
+
+    width: 563px;
+    height: 320px;
+    background: #494949;
+    color: #FFFFFF;
+    margin: 20px;
+    display: flex;
+    align-items: end;
+    border-radius :0 80px 0  0px  ;
+    border-bottom: 4px solid #FF6600;
+
+}
+.imgNomAuteur img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+.imgNomAuteur .texteContent{
+    margin-left: 40px;
+}
+.date p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF6600;
+}
+.titreArticle p{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1F1F1F;
+}
+.boutonExplorer{
+    margin-left: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF6600;
+    width: 177px;
+    height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 150px;
 }
