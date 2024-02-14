@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter&family=Nunito:wght@700&display=swap');
+body{
+    background: #FFFFFF;
+   
+}
+.contenu{
+    max-width: 100%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.row{
+    display: flex;
+    gap: 50px;
+    margin: 4%;
+    width: 85%;
+    
+}
+.col{
+    background: #F7F7F7;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.col1{
+    background: #F7F7F7;
+    width: 41%;
+    padding-bottom: 5%;
+   margin-right: 45%;
+}
+
+.titre{
+    display: flex;
+    margin: 2%;
+}
+.titre img{
+    margin-top: -2%;
+}
+.titre h2{
+    margin-left: 3%;
+}
+.titre span{
+    border: 1px solid #FF6600;
+    border-radius: 5px;
+    color: #FF6600;
+    height: 20px;
+    padding: 2%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.col1 span{
+    border: 1px solid #FF6600;
+    border-radius: 5px;
+    color: #FF6600;
+    height: 50px;
+    padding: 2%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: inline-block;
+}
+.titre .info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; /* Pour occuper tout l'espace disponible */
+    
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajuster l'espacement entre les éléments */
+}
+.infos p{
+    font-family: Exo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.paragraphe{
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    margin-left: 2%;
+
+}
+
+.contenu button{
+    font-family: Exo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 20%;
+    padding: 2%;
+    background: #FF6600;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.contenu a{
+    margin-left: 3%;
+    
+}
+
