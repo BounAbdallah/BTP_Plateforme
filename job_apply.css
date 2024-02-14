@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter&family=Nunito:wght@700&display=swap');
+body{
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+.contenu{
+    max-width: 100%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Pour centrer verticalement sur toute la hauteur de la page */
+
+}
+
+.contenu p span{
+    color: #FF6600;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.contenu h2{
+    font-family: Exo;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1F1F1F;
+}
+.contenu p{
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 60%;
+    color: #1C1D20;
+
+
+}
+form{
+
+    background-color: #F7F7F7;
+    padding-bottom:3% ;
+    border-radius: 4px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px; /* Espacement entre les éléments */
+    padding: 5%;
+
+    
+}
+
+.row {
+    display:flex;
+   max-width: 100%;
+    gap: 10px; /* Espacement entre les éléments */
+}
+
+.col {
+    width: 400px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    border: #F7F7F7 1px solid;
+    padding: 2%;
+    color:  #505050;
+    
+}
+label{
+    margin-left: 5%;
+    font-family: Exo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+#file{
+    margin-left: 3%;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+textarea{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    border: #F7F7F7 1px solid;
+    margin-bottom: 3%;
+}
+
+.contenu button{
+    font-family: Exo;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 30%;
+    padding: 2%;
+    background: #FF6600;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.contenu a{
+    margin-left: 35%;
+    
+}
