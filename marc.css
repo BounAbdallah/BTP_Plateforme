@@ -106,3 +106,194 @@ body{
     text-align: center;
 
 }
+section{
+    max-width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    width: 100%;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+   
+}
+.col1 {
+    position: relative; /* Assure que les images positionnées à l'intérieur sont positionnées par rapport à ce conteneur */
+    text-align: center; /* Centre le contenu à l'intérieur de chaque colonne */
+    width: 30%;
+
+}
+.col {
+   
+    margin-left: 3%;
+    text-align: center; /* Centre le contenu à l'intérieur de chaque colonne */
+    width: 42%; /* Limite la largeur des colonnes pour éviter qu'elles ne s'étendent trop loin */
+}
+
+
+.background-image {
+    width: 100%; /* Ajuste la taille de l'image à celle du conteneur */
+   
+}
+
+.overlay-image {
+    position: absolute; /* Place l'image par-dessus l'autre */
+    top: 0; /* Positionne l'image au sommet du conteneur */
+    left: 22px; /* Positionne l'image à gauche du conteneur */
+    width: 74%; /* Ajuste la taille de l'image à celle du conteneur */
+    height: auto; /* Ajuste la taille de l'image à celle du conteneur */
+}
+.col h2{
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.col span{
+    font-family: Exo;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6600;
+
+}
+.col p{
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+ul {
+    list-style: none; /* Supprime les puces */
+    margin-left: -7%;
+   
+   }
+
+li {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 10px; /* Espacement entre chaque élément de liste */
+}
+
+li strong {
+    display: inline-block;
+    font-weight: bold; /* Met en gras les titres */
+    margin-right: 50px; /* Espace après chaque titre */
+}
+.icon{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.paragraphe{
+   margin-top: 5%;
+   width: 75%;
+   display: inline-block; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+   justify-content: center; /* Centre les éléments horizontalement */
+   align-items: center; /* Centre les éléments verticalement */
+  
+
+}
+.paragraphe p{
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+form{
+    margin-top: 5%;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+}
+
+form .grid-container {
+    display: grid;
+    gap: 20px; /* Espacement entre les éléments */
+}
+
+form .row {
+    display:flex;
+   max-width: 100%;
+    gap: 10px; /* Espacement entre les éléments */
+}
+form h3{
+    font-family: Exo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    justify-content: start; /* Centre les éléments horizontalement */
+    align-items: start; /* Centre les éléments verticalement */
+    margin-left: 5%;
+}
+form p{
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+form .col {
+    width: 400px;
+}
+form input{
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    border: #F7F7F7 1px solid;
+    padding: 2%;
+    color:  #505050;
+    
+}
+
+textarea{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    border: #F7F7F7 1px solid;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+ .button button{
+    font-family: Exo;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 30%;
+    padding: 2%;
+    background: #FF6600;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.button a{
+    margin-left: 35%;
+    
+}
