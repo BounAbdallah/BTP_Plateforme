@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter&family=Nunito:wght@700&display=swap');
 body{
     background: #FFFFFF;
-    overflow-x: hidden;
+   
 }
 .header {
     width: 100%;
@@ -10,6 +10,8 @@ body{
     background: linear-gradient(rgba(1, 1, 15, 0.322), rgba(6, 6, 44, 0.582) ),url('./image/ppdufond.png') ;
     background-size:cover; 
     background-position: center; 
+    color: white; 
+    
      }
   
 .nav-adresse{
@@ -104,73 +106,162 @@ body{
     text-align: center;
 
 }
-
-.contenu{
+section{
     max-width: 100%;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
-.contenu p span{
-    color: #FF6600;
-    font-family: Exo;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: center;
+.row{
+    width: 100%;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+   
+}
+.col1 {
+    position: relative; /* Assure que les images positionnées à l'intérieur sont positionnées par rapport à ce conteneur */
+    text-align: center; /* Centre le contenu à l'intérieur de chaque colonne */
+    width: 30%;
 
 }
-.contenu h2{
+.col {
+   
+    margin-left: 3%;
+    text-align: center; /* Centre le contenu à l'intérieur de chaque colonne */
+    width: 42%; /* Limite la largeur des colonnes pour éviter qu'elles ne s'étendent trop loin */
+}
+
+
+.background-image {
+    width: 100%; /* Ajuste la taille de l'image à celle du conteneur */
+   
+}
+
+.overlay-image {
+    position: absolute; /* Place l'image par-dessus l'autre */
+    top: 0; /* Positionne l'image au sommet du conteneur */
+    left: 22px; /* Positionne l'image à gauche du conteneur */
+    width: 74%; /* Ajuste la taille de l'image à celle du conteneur */
+    height: auto; /* Ajuste la taille de l'image à celle du conteneur */
+}
+.col h2{
     font-family: Exo;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 0em;
-    text-align: center;
-    color: #1F1F1F;
+    text-align: left;
+
 }
-.contenu p{
+.col span{
     font-family: Exo;
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6600;
+
+}
+.col p{
+    font-family: Exo;
+    font-size: 16px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;
-    text-align: center;
-    width: 60%;
-    color: #1C1D20;
-
+    text-align: left;
 
 }
-form{
+ul {
+    list-style: none; /* Supprime les puces */
+    margin-left: -7%;
+   
+   }
 
+li {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 10px; /* Espacement entre chaque élément de liste */
+}
+
+li strong {
+    display: inline-block;
+    font-weight: bold; /* Met en gras les titres */
+    margin-right: 50px; /* Espace après chaque titre */
+}
+.icon{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.paragraphe{
+   margin-top: 5%;
+   width: 75%;
+   display: inline-block; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+   justify-content: center; /* Centre les éléments horizontalement */
+   align-items: center; /* Centre les éléments verticalement */
+  
+
+}
+.paragraphe p{
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+form{
+    margin-top: 5%;
     background-color: #F7F7F7;
-    padding-bottom:3% ;
     border-radius: 4px;
 }
 
-.grid-container {
+form .grid-container {
     display: grid;
     gap: 20px; /* Espacement entre les éléments */
-    padding: 5%;
-
-    
 }
 
-.row {
+form .row {
     display:flex;
    max-width: 100%;
     gap: 10px; /* Espacement entre les éléments */
 }
+form h3{
+    font-family: Exo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    justify-content: start; /* Centre les éléments horizontalement */
+    align-items: start; /* Centre les éléments verticalement */
+    margin-left: 5%;
+}
+form p{
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 5%;
 
-.col {
+}
+
+form .col {
     width: 400px;
 }
-input{
+form input{
     width: 80%;
     height: 40px;
     border-radius: 40px;
@@ -179,31 +270,17 @@ input{
     color:  #505050;
     
 }
-label{
-    margin-left: 5%;
-    font-family: Exo;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-}
-#file{
-    margin-left: 3%;
-    font-family: Exo;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-}
+
 textarea{
     width: 90%;
     margin-left: 5%;
     border-radius: 20px;
     border: #F7F7F7 1px solid;
     margin-bottom: 3%;
+    margin-top: 3%;
 }
 
-.contenu button{
+ .button button{
     font-family: Exo;
     font-size: 15px;
     font-weight: 700;
@@ -216,7 +293,7 @@ textarea{
     color: #FFFFFF;
     border-radius: 4px;
 }
-.contenu a{
+.button a{
     margin-left: 35%;
     
 }
