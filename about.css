@@ -468,13 +468,14 @@ footer .container{
   background: #140626;
 }
 footer .images {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 82%;
+  
 }
 footer .images img{
-    width: 150px;
+    width: 140px;
     height: 115px;
 }
 .footer_top{
