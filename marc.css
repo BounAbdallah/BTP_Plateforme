@@ -297,3 +297,195 @@ textarea{
     margin-left: 35%;
     
 }
+footer{
+    margin-top: 3%;
+}
+footer .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #140626;
+}
+footer .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+footer .images img{
+    width: 150px;
+    height: 115px;
+}
+.footer_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 2%;
+    width: 88%;
+    margin-right: 11%;
+}
+
+.footer_top_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+
+}
+.cta{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    gap: 20px;
+}
+.cta img{
+  margin-top: 8%;
+}
+.tel span{
+    color: #FF6600;
+    font-family: Exo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.tel p{
+    color: #F7F7F7;
+    font-family: Exo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.footer_social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_top_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.footer_top_right h3{
+    font-family: Exo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.footer__newsletter{
+    display: flex;
+}
+.footer__newsletter input[type="email"] {
+   
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    padding: 19px, 40px, 19px, 40px;
+    border-radius: 40px;
+    background: #200B3A;
+    color: #F7F7F7;
+
+}
+
+.footer__newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    padding: 18.5px, 32.64px, 19.5px, 33px;
+    border-radius: 30px;
+    margin-left: -25px;
+    background: #200B3A;
+
+}
+.footer_bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.footer_bot .partie_logo{
+    width: 25%;
+}
+.footer_bot .partie_logo p{
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.les_links h2{
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: underline;
+
+}
+
+.les_links ul{
+    display: inline-block;
+   
+   
+  
+    
+}
+.les_links  li{
+    list-style: none;
+    margin-top: 10px;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    
+    
+
+}
+.les_links  li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #371D59;
+}
+.copyright p{
+    font-family: Exo;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
